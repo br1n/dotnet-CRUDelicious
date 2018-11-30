@@ -1,0 +1,22 @@
+@model Dish
+@{
+    ViewData["Title"] = @Model.Name;
+}
+<form action="/" method="get">
+    <button type="submit">Go Home</button>
+</form>
+<h1> @Model.Name </h1>
+<h4>By Chef @Model.Chef</h4>
+<hr>
+<p>
+    Description: "@Model.Description"
+</p>
+<P>
+    Calories: @Model.Calories
+</P>
+<p>
+    Tastiness: @Model.Tastiness
+</p>
+
+<a asp-action="Delete" asp-route-id="@Model.DishId"><button>Delete</button></a>
+<a asp-action="Edit" asp-route-dishId="@Model.DishId"><button>UPDATE this Dish</button></a>

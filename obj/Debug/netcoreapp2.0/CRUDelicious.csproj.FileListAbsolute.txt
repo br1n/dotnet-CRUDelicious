@@ -1,0 +1,10 @@
+/Users/BrettFishel/Documents/CodingDojo/CSharp/CS_week_6/CRUDelicious/bin/Debug/netcoreapp2.0/CRUDelicious.deps.json
+/Users/BrettFishel/Documents/CodingDojo/CSharp/CS_week_6/CRUDelicious/bin/Debug/netcoreapp2.0/CRUDelicious.runtimeconfig.json
+/Users/BrettFishel/Documents/CodingDojo/CSharp/CS_week_6/CRUDelicious/bin/Debug/netcoreapp2.0/CRUDelicious.runtimeconfig.dev.json
+/Users/BrettFishel/Documents/CodingDojo/CSharp/CS_week_6/CRUDelicious/bin/Debug/netcoreapp2.0/CRUDelicious.dll
+/Users/BrettFishel/Documents/CodingDojo/CSharp/CS_week_6/CRUDelicious/bin/Debug/netcoreapp2.0/CRUDelicious.pdb
+/Users/BrettFishel/Documents/CodingDojo/CSharp/CS_week_6/CRUDelicious/obj/Debug/netcoreapp2.0/CRUDelicious.csproj.CoreCompileInputs.cache
+/Users/BrettFishel/Documents/CodingDojo/CSharp/CS_week_6/CRUDelicious/obj/Debug/netcoreapp2.0/CRUDelicious.AssemblyInfoInputs.cache
+/Users/BrettFishel/Documents/CodingDojo/CSharp/CS_week_6/CRUDelicious/obj/Debug/netcoreapp2.0/CRUDelicious.AssemblyInfo.cs
+/Users/BrettFishel/Documents/CodingDojo/CSharp/CS_week_6/CRUDelicious/obj/Debug/netcoreapp2.0/CRUDelicious.dll
+/Users/BrettFishel/Documents/CodingDojo/CSharp/CS_week_6/CRUDelicious/obj/Debug/netcoreapp2.0/CRUDelicious.pdb

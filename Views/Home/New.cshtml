@@ -1,0 +1,46 @@
+@{
+    ViewData["Title"] = "Add New Dish!";
+}
+@model Dish
+
+<h1>Add A New Dish!</h1>
+<hr>
+<form asp-action="Create" asp-controller="Home" method="post">
+    <div class="form-group">
+        <span asp-validation-for="Chef"></span>
+        <label asp-for="Chef">Created by Chef:</label>
+        <input type="text" asp-for="Chef">
+    </div>
+    <div class="form-group">
+        <span asp-validation-for="Name"></span>
+        <label asp-for="Name">Name of Dish: </label>
+        <input type="text" asp-for="Name">
+    </div>
+    <div class="form-group">
+        <span asp-validation-for="Tastiness"></span>
+        <label for="Tastiness">Tastiness Scale:</label>
+        <select name="Tastiness">
+            <option value="">-</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <span asp-validation-for="Calories"></span>
+        <label asp-for="Calories">Calories:</label>
+        <input type="text" asp-for="Calories">
+    </div>
+    <div class="form-group">
+        <span asp-validation-for="Description"></span>
+        <label asp-for="Description">Description:</label>
+        <textarea name="Description" id="" cols="30" rows="10" placeholder="Leave dish description!" ></textarea>
+    </div>
+    <button type="submit">Add Dish!</button>
+</form>
+
+<form action="/" method="get">
+    <button type="submit">Go Home</button>
+</form>
